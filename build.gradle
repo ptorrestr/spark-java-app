@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+group = 'ie.hujo.test'
+description = """ Testing app for Spark """
+version = 1.0
+mainClassName = 'ie.hujo.test.Pi'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'log4j:log4j:1.2.17'
+  compile 'org.apache.spark:spark-core_2.10:1.2.2'
+}

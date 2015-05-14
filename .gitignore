@@ -1,0 +1,11 @@
+*.class
+*.swp
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Build and gradle
+build/
+.gradle/
