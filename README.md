@@ -1,4 +1,4 @@
-Java Spark Application
+Spark Java Application
 ======================
 
 This is an example of a Java Application for Apache Spark.
